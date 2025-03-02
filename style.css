@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.outer-container{
+    min-height: 100vh;
+    
+    
+}
+
+#particles-js {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ h1, h2{
+    
+    color: #3EBB79;
+    text-align:left;
+    letter-spacing: 2px;
+}
+.name h2{
+    display: inline;
+
+}
+.name h1{
+    margin-bottom: 15px;
+}
+.before-name{
+    margin-bottom: 15px;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+}
+
+.about h3, .projects h3{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    
+}
+
+.about h4, .projects h4{
+color: #3EBB79;
+}
+
+.name{
+    padding-top: 20vh;
+    padding-left: 150px;
+    position: absolute;
+    inset: 0;
+    
+    
+}
+.name h3{
+    color: white;
+    display: inline;
+}
+.about, .projects{
+    background-color: black;
+    min-height: 50vh;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+
+    padding-bottom: 30px;
+
+}
+.about p{
+    width: 100%;
+    max-width:600px;
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.projects{
+    padding-top: 100px;
+}
+.about .underline, .projects .underline{
+    width: 80px;
+    height: 2px;
+    opacity: 0.5;
+    background-color: gray;
+}
+.line-1{
+    color: white;
+}
+.line-2{
+    color: white;
+}
+.line-3{
+    color: #3EBB79;
+    font-style: italic;
+}
+
+.project-section{
+    width: 100%;
+    min-height: 500px;
+    
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+    margin-bottom: 80px;
+    
+}
+
+.project-section .project-details{
+width: 320px;
+height: 340px;
+
+box-shadow: 2px 1px 2px 2px #3EBB79 ;
+
+border-radius: 8px;
+cursor: pointer;
+padding: 30px;
+color: white;
+transition: background-color 250ms ease-in;
+}
+
+.project-section .project-details h4{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.25px;
+    line-height: 25px;
+}
+
+.project-details .p-desc{
+    margin-top: 30px;
+
+}
+
+.project-details:hover{
+    background-color: #1B1212;
+}
+
+
+.links-class{
+    color:#3EBB79;
+    font-size: large;
+    text-decoration: none;
+    font-weight: 600;
+}
+.tech-used{
+    margin-top: 10px;
+}
+
+footer{
+    
+    
+    background-color: black;
+    width: 100%;
+    padding: 60px 30px;
+
+
+}
+
+.footer-class hr{
+    border: none;
+  height: 1px;
+  
+  background-color: #333; 
+}
+.footer-text-div{
+    padding-top: 50px;
+}
+
+.footer-text{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 18px;
+}
